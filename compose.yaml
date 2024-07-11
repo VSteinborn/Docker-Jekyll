@@ -1,0 +1,10 @@
+name: jekyll-dev
+services:
+  docker-jekyll:
+    image: victorsteinborn/jekyll-serve
+    ports:
+      - 4000:4000
+    volumes:
+      - type: bind
+        source: .
+        target: /site
