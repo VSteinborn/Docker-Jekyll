@@ -1,5 +1,5 @@
 # Start from a light-weight ruby image
-FROM ruby:3.1.2-alpine
+FROM ruby:3.2.3-alpine
 
 # Install gcc and make 
 RUN apk add build-base
